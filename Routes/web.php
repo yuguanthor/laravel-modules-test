@@ -13,4 +13,8 @@
 
 Route::prefix('blog')->group(function() {
     Route::get('/', 'BlogController@index');
+    Route::get('/admin', function(){
+        dd('admin page added');
+
+    });
 });
