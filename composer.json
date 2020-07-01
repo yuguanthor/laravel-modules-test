@@ -9,6 +9,7 @@
         }
     ],
     "extra": {
+        "module-dir": "Custom",
         "laravel": {
             "providers": [
                 "Modules\\Blog\\Providers\\BlogServiceProvider"
